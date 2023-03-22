@@ -21,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
@@ -43,13 +43,13 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#newsletter">News Letter</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Reviews</a>
+                        <a class="nav-link" href="/testimonial.html">Testimonial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -78,7 +78,7 @@
     <!--Hero section ends here-->
 
     <!--Newsletter section starts here-->
-    <section class="bg-primary text-light p-5" id="">
+    <section class="bg-primary text-light p-5" id="newsletter">
         <div class="container py-5">
             <div class="d-md-flex justify-content-between align-items-center ">
                 <h3 class="mb-3 mb-md-0">
@@ -96,8 +96,8 @@
     <!--Services section starts here-->
     <section class="p-5" id="services">
         <div class="container py-5">
-            <div class="row text-center g-4">
-                <div class="col-md">
+            <div class="row text-center">
+                <div class="col-md-4">
                     <div class="card bg-dark text-light p-5">
                         <div class="card-body text-center">
                             <div class="mb-3">
@@ -113,7 +113,7 @@
                     </div>
                 </div>
     
-                <div class="col-md">
+                <div class="col-md-4">
                     <div class="card bg-dark text-light p-5">
                         <div class="card-body text-center">
                             <div class="mb-3">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
     
-                <div class="col-md">
+                <div class="col-md-4">
                     <div class="card bg-dark text-light p-5">
                         <div class="card-body text-center">
                             <div class="mb-3">
@@ -156,7 +156,7 @@
         <div class="container py-5">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md">
-                    <a href="#"> <img src="./assets/kolpolok_about.png" alt="kolpolok_about" width="600 px" height="600 px" /></a>
+                    <a href="#"> <img src="./assets/kolpolok_about.png" alt="kolpolok_about" width="600 px" height="600 px" class="img-fluid"/></a>
                 </div>
                 <div class="col-md">
                     <h3>We Dream Together, We Work Together to Succeed More</h3>
@@ -222,27 +222,29 @@
         </div>
     </section>
     <!--End FAQ-->
+    <!--Review Section Starts here-->
+    <section class=""></section>
+    <!--Review Section Ends here-->
+    
 
     <!--Modal start for Get A Quote button-->
-    <!-- Button trigger modal -->
-
   
 <!-- Modal -->
 <section class="p-5" >
     <div class="container">
   <div class="modal fade" id="getaquote" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="staticBackdropLabel"></h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <div class="d-sm-flex align-items-center justify-content-between py-5">
+            <div class="d-sm-flex align-items-center py-5">
                 <a href="#">
-                    <img src="./assets/kolpolok_modal_image.png" alt="kolpolok_limited_logo" width="250 px" height="250 px" />
+                    <img src="./assets/kolpolok_modal_image.png" alt="kolpolok_limited_logo" width="350 px" height="350 px" />
                 </a>
-                <div>
+                <div class="ms-auto">
                     <h5 class="modal-title mb-5 text-info" id="staticBackdropLabel">Get a Free Quote</h5>
                     <div class="mb-3">
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
@@ -257,7 +259,7 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Write your message (Required)*"></textarea>
                       </div>
                       <div class="d-sm-flex align-items-center justify-content-between py-3">
-                        <h1>4+8=</h1>
+                        <h1>4+8 = </h1>
                         <div>
                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Required*">
                         </div>
@@ -278,33 +280,81 @@
 <!--Modal end to-->
 
 <!--Footer Starts here-->
-<section class="p-1 bg-secondary text-light">
+<section class="bg-secondary text-light" id="contact">
     <div class="container">
-        <div class="d-sm-flex align-items-center justify-content-between py-5">
-            <div>
-                <div class="d-sm-flex align-items-center justify-content-between py-5">
-                    <a href="#" class="mx-3">
-                        <img src="./assets/kolpolok_iso_certified.png" alt="kolpolok_iso_certified" width="120 px" height="110 px" />
+        <div class="d-sm-flex justify-content-between py-5">
+
+                <div class="d-sm-flex align-items-center justify-content-center py-5">
+                    <a href="#" class="me-3">
+                        <img src="./assets/kolpolok_iso_certified.png" alt="kolpolok_iso_certified" width="100 px" height="90 px" />
                     </a>
                     <div>
                         <h5>Make a deal with an ISO 9001:2015 <br/> Certified Company</h5>
-                        <h6>Kolpolok Limited is a full-service custom mobile app development <br/>
+                        <p class="font-cntrl">Kolpolok Limited is a full-service custom mobile app development <br/>
                             company in Bangladesh. We are a team of professional developers, <br/>
                             designers and digital strategists. DBID NO: 8 6 8 7 7 8 8 2 5
-                        </h6>
+                        </p> 
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#getaquote">
                             Get A Quote
                           </button>
                     </div>
                 </div>
-            </div>
-            <div>
-                <h1>I am right side</h1>
+                <div class="d-sm-flex">
+                    <div class="me-2">
+                        <h5>Our Services</h5>
+                        <ul class="navbar-nav">
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>App Development</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>OTT Applications</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Mobile Applications</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Web Applications</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Desktop Applications</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Resource Augmentation</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Dev Ops</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Digital Marketing</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="me-2">
+                        <h5>Company</h5>
+                        <ul class="navbar-nav">
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Home</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Services</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>About us</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Our Team</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Career</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Testimonial</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>FAQ</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Privacy Policy</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Terms and Condition</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Contact us</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Blog</button></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Quick Contact</h5>
+                        <ul class="navbar-nav">
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Facebook</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Twitter</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>LinkedIn</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Instagram</button></a></li>
+                            <li><a href="#"><button class="btn"> <i class="bi bi-chevron-compact-right"></i>Youtube</button></a></li>
+                        </ul>    
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 </section>
 <!--Footer Ends here-->
+
+
+
+<!--Footer Bottom Starts Here-->
+<section class="bg-dark text-light">
+    <div class="d-sm-flex justify-content-center align-items-center">
+<h5>@2023 Copyright - Kolpolok Limited</h5>
+    </div>
+</section>
+<!--Footer Bottom Ends Here-->
+<!--Script for Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
